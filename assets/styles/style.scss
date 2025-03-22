@@ -2,10 +2,17 @@
 @use 'reset' as *;
 @use 'fonts' as *;
 
+// fonts
+$NP: 'Noir Pro', sans-serif;
+$MM: Montserrat-Medium, sans-serif;
+
+// colors
 $bgColor: #0C0C0F;
 $blockColor: #131316;
 $textColor: #DBDBDB;
 $mainColor: #2F64C2;
+$strokeAndForm: #17171D;
+
 
 * {
   box-sizing: border-box;
@@ -24,7 +31,7 @@ html {
 
 .mainStyleText {
   color: $textColor;
-  font-family: Montserrat-Medium, sans-serif;
+  font-family: $MM;
 }
 
 .menu {
@@ -77,7 +84,7 @@ html {
     }
     &Text {
       color: $textColor;
-      font-family: 'Noir Pro', sans-serif;
+      font-family: $NP;
       font-size: 28px;
       cursor: pointer;
       transition: .25s ease;
