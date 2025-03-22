@@ -44,9 +44,6 @@ html {
     &__left {
       display: flex;
       gap: 40px;
-      p {
-        padding-bottom: 6px;
-      }
     }
     &__right {
       &:hover {
@@ -73,7 +70,7 @@ html {
         background: $mainColor;
         border-radius: 15px;
         gap: 10px;
-        p {
+        a {
           padding-bottom: 5px;
         }
       }
@@ -95,13 +92,13 @@ html {
 @media (max-width: 1199px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .menu {
     &__left {
-      p {
+      a {
         padding-top: 10px;
       }
     }
     &__right {
       &-block {
-        p {
+        a {
           padding-top: 9px;
         }
       }
