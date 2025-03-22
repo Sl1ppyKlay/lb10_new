@@ -112,6 +112,7 @@ const close = () => {
         border-radius: 10px;
         padding: 0;
         transition: .25s ease;
+        cursor: pointer;
         &:hover {
           color: global.$blockColor;
           background: global.$textColor;
