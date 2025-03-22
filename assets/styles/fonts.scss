@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Noir Pro';
+  src: local('Noir Pro Bold'), local('Noir-Pro-Bold'),
+  url('~/public/fonts/NoirPro-Bold.woff2') format('woff2'),
+  url('~/public/fonts/NoirPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: local('Montserrat-Medium'),
+  url('~/public/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
