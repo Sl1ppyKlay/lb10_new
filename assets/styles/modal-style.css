@@ -35,14 +35,14 @@
 }
 .modal-window__block h1 {
     margin: 0px 0 17px 0;
-    font-family: 'Noir Pro', sans-serif;
+    font-family: MontserratBold, sans-serif;
     color: #DBDBDB;
     font-size: 30px;
     padding-left: 8px;
 }
 .modal-window__block form input {
     outline: none;
-    font-family: 'Noir Pro', sans-serif;
+    font-family: MontserratBold, sans-serif;
     font-size: 22px;
     color: #DBDBDB;
     width: 100%;
@@ -68,7 +68,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    font-family: 'Noir Pro', sans-serif;
+    font-family: MontserratBold, sans-serif;
     font-size: 22px;
     color: #DBDBDB;
     height: 52px;

@@ -10,8 +10,8 @@ html {
 }
 
 .container {
-    width: 100%;
-    max-width: min(1540px, calc(100vw - 60px));
+    position: relative;
+    max-width: min(1540px, calc(100vw - 200px));
     margin: 0 auto;
     transition: all .3s ease;
 }
@@ -19,75 +19,4 @@ html {
 .mainStyleText {
     color: #DBDBDB;
     font-family: Montserrat-Medium, sans-serif;
-}
-
-.menu {
-    position: relative;
-    height: 86px;
-    width: 100%;
-    background: #131316;
-    border-radius: 25px;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 25px 0 25px;
-    margin-bottom: 70px;
-    gap: 10px;
-}
-.menu__left {
-    display: flex;
-    gap: 40px;
-}
-.menu__right:hover .menu__right-block {
-    background: #DBDBDB;
-    color: #2F64C2;
-}
-.menu__right:hover .menuText {
-    color: #2F64C2;
-}
-.menu__right:hover svg path {
-    stroke: #2F64C2;
-}
-.menu__right-block {
-    transition: 0.2s ease;
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 49px;
-    padding: 0px 18px;
-    background: #2F64C2;
-    border-radius: 15px;
-    gap: 10px;
-}
-/*.menu__right-block a {*/
-/*    padding-bottom: 5px;*/
-/*}*/
-.menuText {
-    color: #DBDBDB;
-    font-family: 'Noir Pro', sans-serif;
-    font-size: 28px;
-    cursor: pointer;
-    transition: 0.25s ease;
-}
-.menuText:hover {
-    color: #2F64C2;
-}
-
-@media (max-width: 1199px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .menu__left a {
-        padding-top: 10px;
-    }
-    .menu__right-block a {
-        padding-top: 9px;
-    }
-}
-
-@media (max-width: 565px) {
-    .menu__right-block p {
-        display: none;
-    }
 }
