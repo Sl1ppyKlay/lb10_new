@@ -1,0 +1,46 @@
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.main-page__left {
+    position: relative;
+    border-radius: 20px;
+    background: #131316;
+    width: 100%;
+    height: 100%;
+    max-width: 885px;
+}
+.main-page__left p {
+    line-height: 30px;
+    font-size: 25px;
+    padding: 22px 20px;
+}
+.main-page__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #131316;
+    border-radius: 15px;
+    height: 435px;
+    padding: 0 30px;
+    border: #2F64C2 solid 4px;
+}
+.main-page__right img {
+    animation: levitation 7s infinite ease-in-out;
+}
+
+@media (max-width: 900px) {
+    .main-page {
+        flex-direction: column-reverse;
+    }
+}
+
+@keyframes levitation {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-15%);
+    }
+}
