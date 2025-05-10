@@ -3,13 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalWindow = document.getElementById('modal-window');
     const modalClose = document.getElementById('modal-close');
 
-    modalOpen.addEventListener('click', () => {
-        modalWindow.classList.toggle('active');
-    })
+    if (modalOpen) {
+        modalOpen.addEventListener('click', () => {
+            modalWindow.classList.toggle('active');
+        });
+    }
 
-    if (modalWindow) {
+    if (modalClose && modalWindow) {
         modalClose.addEventListener('click', () => {
             modalWindow.classList.toggle('active');
-        })
+        });
     }
-})
+});
